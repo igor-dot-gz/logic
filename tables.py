@@ -1,4 +1,3 @@
-import os
 print("0s and 1s only!")
 a = int(input("Input A = "))
 b = int(input("Input B = "))
