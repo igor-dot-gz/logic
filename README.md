@@ -27,6 +27,7 @@ nah, false
 The module contains the `AND`, `OR`, `NOT`, `NOR`, `NAND`, `XOR` and `XNOR` gates.  
 To use it just type:  
 `logic.`[gate]`(`[0/1]`, `[0/1]`)`  
+The module can be arranged in any sequence to perform more complex calculations.  
   
 ### other functions are:  
 `logic.ver()` - current version  
