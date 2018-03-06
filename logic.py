@@ -46,43 +46,43 @@ def license():
 
 ### LOGIC GATES
 def AND(a,b):
-    if a == 1 and b == 1:
+    if a == True and b == True:
         return True
     else:
         return False
 
 def OR(a,b):
-    if a == 1 or b == 1:
+    if a == True or b == True:
         return True
     else:
         return False
 
 def NOT(a):
-    if a == 1:
+    if a == True:
         return False
     else:
         return True
 
 def NAND(a,b):
-    if a == 1 and b == 1:
+    if a == True and b == True:
         return False
     else:
         return True
 
 def NOR(a,b):
-    if a == 1 and b == 1:
+    if a == True and b == True:
         return False
     else:
         return True
 
 def XOR(a,b):
-    if (a == 1 and b == 1) or (a == 0 and b == 0):
+    if (a == True and b == True) or (a == False and b == False):
         return False
     else:
         return True
 
 def XNOR(a,b):
-    if (a == 1 and b == 1) or (a == 0 and b == 0):
+    if (a == True and b == True) or (a == False and b == False):
         return True
     else:
         return False
