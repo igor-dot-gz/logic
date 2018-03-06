@@ -2,17 +2,6 @@ __slots__ = ["version", "a", "b"]
 version = "0.5c"
 
 ### OTHER
-
-def help():
-    print("logic.    (       )")
-    print("      AND  a=0,b=0")
-    print("      OR   a=0,b=0")
-    print("      NOT  a=0")
-    print("      NAND a=0,b=0")
-    print("      NOR  a=0,b=0")
-    print("      XOR  a=0,b=0")
-    print("      XNOR a=0,b=0")
-
 def ver():
     print(version)
 
